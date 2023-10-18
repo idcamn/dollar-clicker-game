@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>$</title>
+</head>
+<body>
+  <h1>Игра доллар</h1>
+  <h2>Баланс: <span id="balance">$0</span></h2>
+  <button id="clicker">$</button>
+
+  <h2>Купить</h2>
+  <ul class="upgrade-list">
+    <li class="upgrade-item">
+      <button disabled>
+        <p>Круче клик (ур. <span id="click-count">0</span>)</p>
+        <p>$25</p>
+      </button>
+    </li>
+    <li class="upgrade-item">
+      <button disabled>
+        <p>Попрошайка (ур. <span id="click-count">0</span>)</p>
+        <p>$25</p>
+      </button>
+    </li>
+  </ul>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
